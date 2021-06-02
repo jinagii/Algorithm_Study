@@ -2,9 +2,9 @@
 
 int main()
 {
-	 char SuperrrStack[10] = { 0, };   // ½ºÅÃ ¹è¿­ Å©±â 10
-	 int SuperIndex = 0;         // ¹è¿­ÀÇ ÀÎµ¦½º 
-	 char inputchar;      // ½ºÅÃ¿¡ ³ÖÀ» °Å
+	 char SuperrrStack[10] = { 0, };   // ìŠ¤íƒ ë°°ì—´ í¬ê¸° 10
+	 int SuperIndex = 0;         // ë°°ì—´ì˜ ì¸ë±ìŠ¤ 
+	 char inputchar;      // ìŠ¤íƒì— ë„£ì„ ê±°
 	 int inputMenu;
 
 	 while (true)
@@ -29,7 +29,7 @@ int main()
 
 					 printf("Typed : %c \n", inputchar);
 
-					 //½ÇÁ¦·Î ½ºÅÃ¿¡ µ¥ÀÌÅÍ ³Ö´Â´Ù.
+					 //ì‹¤ì œë¡œ ìŠ¤íƒì— ë°ì´í„° ë„£ëŠ”ë‹¤.
 					 SuperStack[SuperIndex] = inputchar;
 					 SuperIndex++;
 				}
