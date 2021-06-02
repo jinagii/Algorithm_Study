@@ -5,7 +5,7 @@ This section is for Algorithm study
 I haven't added all the comment yet.
 During the curriculum, we went through assignment for below:
 1. Stack
-2. Queue
+2. Queue // wrong method
 3. Linked List
 4. Hash
 5. Graph
